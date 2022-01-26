@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,900&display=swap');
+
 html,
 body {
     font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
 }
 
 ul {
@@ -34,14 +37,38 @@ img {
     object-fit: contain;
 }
 
+.header__phone {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 63%;
+}
+
 .header__phone-img {
     width: 2rem;
     height: 2rem;
 }
 
+.header__phone-text a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.header__maps-text {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+}
+
 .header__maps-img {
     width: 1.5rem;
     height: 2.5rem;
+}
+
+.header__instagram-text {
+    max-width: 12.8rem;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
 }
 
 .header__instagram-img {
@@ -83,7 +110,7 @@ img {
 }
 
 .footer__address {
-    min-width: 22.5rem;
+    max-width: 22.5rem;
 }
 
 .footer__decor-1 {
@@ -102,4 +129,28 @@ img {
     left: 83.5%;
     top: 47%;
     transform: translate(-50%, -50%);
+}
+
+.footer__header {
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 114%;
+}
+
+.footer__instagram {
+    margin-bottom: 0.6rem;
+}
+
+.footer__address {
+    margin-top: 3rem;
+}
+
+.footer__address-city {
+    margin-top: 1rem;
+}
+
+.footer__wrap li {
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 114%;
 }
