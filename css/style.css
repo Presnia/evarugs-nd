@@ -1,3 +1,56 @@
+html,
 body {
-    background-color: tomato;
+    font-size: 62.5%;
 }
+
+.container {
+    width: 120rem;
+    margin: 0 auto;
+}
+
+.header {
+    background: linear-gradient(269.91deg, rgba(46, 49, 146, 0.7) 0%, rgba(212, 20, 90, 0.7) 98.16%);
+    padding: 2.3rem 0 2.6rem 0;
+    color: #FFF;
+}
+
+.header__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.header__phone-img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.header__maps-img {
+    width: 1.5rem;
+    height: 2.5rem;
+}
+
+.header__instagram-img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.header__phone-img,
+.header__maps-img,
+.header__instagram-img {
+    padding-right: 1.5rem;
+}
+
+.header__phone,
+.header__maps,
+.header__instagram {
+    display: flex;
+    align-items: center;
+}
+
